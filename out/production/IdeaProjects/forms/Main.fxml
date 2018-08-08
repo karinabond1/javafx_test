@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="442.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.Main">
+    <children>
+        <Accordion layoutY="8.0" prefHeight="385.0" prefWidth="202.0">
+            <panes>
+                <TitledPane animated="false" prefHeight="332.0" prefWidth="171.0" text="Cервіси студентів">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="275.0" prefWidth="189.0">
+                            <children>
+                                <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Сервіси викладачів">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                    </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Сервіси деканатів">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                    </content>
+                </TitledPane>
+                <TitledPane animated="false" prefHeight="362.0" prefWidth="230.0" text="untitled">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                    </content>
+                </TitledPane>
+            </panes>
+        </Accordion>
+    </children>
+</AnchorPane>
